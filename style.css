@@ -1,0 +1,188 @@
+body {
+    width: 100%;
+}
+.header {
+    height: 50px;
+    text-align: right;
+    float:right;
+    padding-top: 10px;
+    padding-right: 40px;
+    display: inline-block;
+    font-size: 18px;
+    font-family: sans-serif, cursive;
+    min-width: 500px;
+}
+.header p {
+    position: relative;
+    display: inline;
+    top: -15px;
+}
+.header img {
+    max-height: 25px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#zvonec{
+    border: 1px solid black;
+    border-radius: 50%;
+    max-height: 20px;
+    margin-bottom: 5px; 
+    margin: 0 20px;
+}
+#avatar {
+    border-radius: 50px;
+    padding: 0px;
+    max-height: 50px;
+    margin: 0 10px;
+}
+.header a {
+    padding-left: 15px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: -15px;
+}
+.logo {
+    width: 100%; 
+    height: 250px; 
+    display: block;
+    position: relative;
+    top: 300px;
+}
+#boogle {
+    height: 150px;
+    width: 450px;
+    position: absolute;
+    left: 50%;
+    margin-left:-225px;
+}
+
+.iskalnik { 
+    width: 100%;
+    position: relative;
+    top: 300px;
+    height: 80px;
+}
+#iskalnik-okvir {
+    width: 800px;
+    border: 1px solid #cccccc;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 1px;
+}
+#iskalnik-okvir input{
+    height: 50px;
+    border: 0;
+    width: 700px;
+}
+#iskalnik-okvir img {
+    max-height: 20px;
+}
+
+.change::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #595959;
+}
+.change:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #595959;
+    opacity: 1;
+}
+.gumbi::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #595959;
+    opacity: 1;
+}
+.change:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #595959;
+}
+.gumbi {
+    width: 100%;
+    position: relative;
+    top: 320px;
+    height: 50px;
+    min-width: 400px;
+}
+.gumbi input {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    display: inline;
+    background-color: #d9d9d9;
+    font-family: sans-serif, cursive, Arial;
+    font-size: 20px;
+    padding: 15px 10px;
+    text-align:center;
+    border-radius: 5px;
+    border: 0;  
+}
+#prvi {
+    position:absolute;
+    margin:0 5px 0 auto;
+    float:left;
+    width: 160px;
+}
+#drugi {
+    position: absolute;
+    margin: 0 auto 0 5px;
+    float: left;
+    width: 190px;
+}
+
+#jezik {
+    width: 100%;
+    position: relative;
+    top: 350px;
+    font-size: 18px;
+    height: 50px;
+    font-family: sans-serif;
+    text-align: center
+}
+#jezik p {
+    display: block;
+    width: 100%;
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-family: sans-serif;
+    padding: 20px; 
+    background-color: #f2f2f2;
+    margin-left: 10px;
+    margin-right: 10px;
+    min-width: 800px;
+}
+.footer a {
+    text-decoration: none;
+    padding: 15px 25px;
+    color: #595959;
+    margin: 5px;
+    font-size: 19px;
+}
+.footer-levi{
+    position: relative;
+    float:left;
+    margin: 5px;
+    padding: 5px;
+}
+.footer-desni{
+    position: relative;
+    float:right;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+
+
